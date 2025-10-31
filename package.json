@@ -1,0 +1,16 @@
+{
+  "name": "telegram-order-bot",
+  "version": "1.0.0",
+  "description": "Telegram order notification bot API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node api/notify.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.4.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
