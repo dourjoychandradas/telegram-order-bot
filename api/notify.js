@@ -7,9 +7,10 @@ export default async function handler(req, res) {
     // Seller Telegram info
     const sellerBots = {
       "seller1": { chat_id: "6840076102", bot_token: "8247408967:AAF7ivv97f8eRC9IKwW_cdJ5zrZ05STC1LY" },
+      "seller2": { chat_id: "1275817732", bot_token: "8247408967:AAF7ivv97f8eRC9IKwW_cdJ5zrZ05STC1LY" },
     };
 
-    const seller = sellerBots["seller1"];
+    const seller = sellerBots["seller1","seller2"];
 
     const message = `🛍️ New Order!\n\n👤 Name: ${name}\n📦 Product: ${product}`;
     const telegramUrl = `https://api.telegram.org/bot${seller.bot_token}/sendMessage`;
