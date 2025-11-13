@@ -7,8 +7,7 @@ const BOT_TOKEN = "8247408967:AAF7ivv97f8eRC9IKwW_cdJ5zrZ05STC1LY";
 const sellerBots = {
   "seller1": { chat_id: "6840076102" },
   "seller2": { chat_id: "1275817732" },
-  "seller3": { chat_id: "1734785404" }, 
-  "seller4": { chat_id: "8179923107" }, 
+  "seller3": { chat_id: "8179923107" }, 
 };
 
 export default async function handler(req, res) {
