@@ -9,6 +9,7 @@ const sellerBots = {
   "seller2": { chat_id: "1275817732" },
   "seller3": { chat_id: "8179923107" }, 
   "seller4": { chat_id: "5322688689" },
+  "seller5": { chat_id: "8097782803" },
 };
 
 export default async function handler(req, res) {
